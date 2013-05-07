@@ -1,6 +1,6 @@
 <?php
 
-namespace Pixelart\CrmBundle\DQL;
+namespace Fza\MysqlDoctrineLevenshteinFunction\DQL;
 
 use Doctrine\ORM\Query\Lexer;
 
