@@ -56,3 +56,20 @@ BEGIN
     RETURN ROUND((1 - LEVENSHTEIN(s1, s2) / max_len) * 100);
 END;;;
 ```
+
+Usage / installation with symfony2
+----------------------------------
+
+Add/merge this configuration to your app/config/config.yml:
+
+```yaml
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                dql:
+                    numeric_functions:
+                        levenshtein: Fza\MysqlDoctrineLevenshteinFunction\DQL\LevenshteinFunction
+                        levenshtein_ratio: Fza\MysqlDoctrineLevenshteinFunction\DQL\LevenshteinRatioFunction
+```
+

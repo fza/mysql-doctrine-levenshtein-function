@@ -11,7 +11,7 @@ class LevenshteinFunction
 
     public function getSql(\Doctrine\ORM\Query\SqlWalker $sqlWalker)
     {
-        return 'levenshtein(' .
+        return 'LEVENSHTEIN(' .
             $this->firstStringExpression->dispatch($sqlWalker) . ', ' .
             $this->secondStringExpression->dispatch($sqlWalker) .
             ')';

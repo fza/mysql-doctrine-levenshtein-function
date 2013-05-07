@@ -1,6 +1,6 @@
 {
     "name": "fza/mysql-doctrine-levenshtein-function",
-    "description": "Provides the `levenshtein()` and `levenshtein_ratio()` MySQL functions for Doctrine2.",
+    "description": "Provides the `LEVENSHTEIN()` and `LEVENSHTEIN_RATIO()` MySQL functions for Doctrine2.",
     "keywords": ["mysql", "doctrine", "function", "levenshtein", "similarity"],
     "license": "MIT",
     "authors": [
