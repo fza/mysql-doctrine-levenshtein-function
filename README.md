@@ -8,7 +8,10 @@ Uses these functions:
 * And here: http://www.artfulsoftware.com/infotree/queries.php#552
 * Copyright: Jason Rust
 
+Execute these commands to define the levenshtein functions within the database:
+
 ```sql
+DELIMITER ;;;
 CREATE DEFINER=`root`@`` FUNCTION `LEVENSHTEIN`(s1 VARCHAR(255), s2 VARCHAR(255)) RETURNS int(11) DETERMINISTIC
 BEGIN
     DECLARE s1_len, s2_len, i, j, c, c_temp, cost INT;
@@ -40,7 +43,7 @@ BEGIN
         END WHILE;
     END IF;
     RETURN c;
-END;
+END;;;
 ```
 
 ```sql
