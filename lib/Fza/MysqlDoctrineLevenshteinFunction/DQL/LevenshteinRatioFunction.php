@@ -3,8 +3,9 @@
 namespace Fza\MysqlDoctrineLevenshteinFunction\DQL;
 
 use Doctrine\ORM\Query\Lexer;
+use Doctrine\ORM\Query\AST\Functions\FunctionNode;
 
-class LevenshteinFunction
+class LevenshteinFunction extends FunctionNode
 {
     public $firstStringExpression = null;
     public $secondStringExpression = null;
