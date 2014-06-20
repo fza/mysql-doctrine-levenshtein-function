@@ -12,7 +12,7 @@ class LevenshteinFunction extends FunctionNode
 
     public function getSql(\Doctrine\ORM\Query\SqlWalker $sqlWalker)
     {
-        return 'LEVENHSTEIN_RATIO(' .
+        return 'LEVENSHTEIN_RATIO(' .
             $this->firstStringExpression->dispatch($sqlWalker) . ', ' .
             $this->secondStringExpression->dispatch($sqlWalker) .
             ')';
