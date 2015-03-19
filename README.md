@@ -4,8 +4,8 @@ A tiny Doctrine extension for the [Levenshtein distance](http://en.wikipedia.org
 
 Just for reference, there are plenty of alternative/additional algorithms to compute phonetic similarity. This is by all means not a complete list:
 
-* [Damerau-Levenhstein distance](http://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
-* [Jaro-Winkler distance](http://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance)
+* [Damerau-Levenshtein distance](http://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
+* [Jaro-Winkler distance](http://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance) (there is a [Doctrine extension](https://github.com/fza/mysql-doctrine-levenshtein-function) available as well) 
 * [Soundex](http://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance)
 * [Metaphone](http://en.wikipedia.org/wiki/Metaphone)
 
