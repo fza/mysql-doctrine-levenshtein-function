@@ -1,18 +1,24 @@
 {
-    "name": "fza/mysql-doctrine-levenshtein-function",
-    "description": "Provides the `LEVENSHTEIN()` and `LEVENSHTEIN_RATIO()` MySQL functions for Doctrine2.",
-    "keywords": ["mysql", "doctrine", "function", "levenshtein", "similarity"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Felix Zandanel",
-            "email": "felix@zandanel.me"
-        }
-    ],
-    "require": {
-        "doctrine/orm": ">=2.2.0"
-    },
-    "autoload": {
-        "psr-0": { "Fza\\MysqlDoctrineLevenshteinFunction": "lib/" }
-    }
+  "name": "fza/mysql-doctrine-levenshtein-function",
+  "description": "Provides the `LEVENSHTEIN()` and `LEVENSHTEIN_RATIO()` MySQL functions for Doctrine2.",
+  "keywords": [
+	"mysql",
+	"doctrine",
+	"function",
+	"levenshtein",
+	"similarity"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Felix Zandanel",
+	  "email": "felix@zandanel.me"
+	}
+  ],
+  "require": {
+	"doctrine/orm": ">=2.2.0"
+  },
+  "autoload": {
+	"psr-0": {"Fza\\MysqlDoctrineLevenshteinFunction": "lib/"}
+  }
 }

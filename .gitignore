@@ -1,12 +1,6 @@
-# OSX
 .DS_Store
 ._*
-.Spotlight-V100
-.Trashes
-
-# Linux General
 *~
 .directory
-
-# Composer
 composer.lock
+vendor/
