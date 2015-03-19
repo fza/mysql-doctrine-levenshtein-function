@@ -5,7 +5,7 @@ namespace Fza\MysqlDoctrineLevenshteinFunction\DQL;
 use Doctrine\ORM\Query\Lexer;
 use Doctrine\ORM\Query\AST\Functions\FunctionNode;
 
-class LevenshteinFunction extends FunctionNode
+class LevenshteinRatioFunction extends FunctionNode
 {
     public $firstStringExpression = null;
     public $secondStringExpression = null;
